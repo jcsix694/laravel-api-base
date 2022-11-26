@@ -38,7 +38,7 @@ A Laravel API Base. This Repository is using docker to allow use of Laravel & My
 
 ## Endpoints
 - POST api/auth
-    - <em>Authorizes a loging and returns a Bearer Token for the user</em>
+    - <em>Authorizes login and returns a Bearer Token for the user</em>
 - POST api/users
     - <em>Creates a member</em>
 - GET api/users/me
