@@ -3,6 +3,8 @@
 A Laravel API Base. This Repository is using docker to allow use of Laravel & MySql.
 
 ## Prerequistes  
+- Node.js
+- npm
 - Docker
 - PHP v7.3.33 
 - Composer v2.1.3
@@ -20,8 +22,8 @@ A Laravel API Base. This Repository is using docker to allow use of Laravel & My
 10. Run `sail artisan migrate` to run migrations
 
 ## Commands 
-- `sail up` to run the project with debugging
-- `sail up -d` to run the project with no debugging
+- `sail up` to run the project with debugging in the command line
+- `sail up -d` to run the project with no debugging in the command line
 - `sail down` to stop the project
 - `sail ps` to check containers that are running
 - `sail artisan config:cache` to clear env cache if errors connecting to the database or using env variables
@@ -38,6 +40,6 @@ A Laravel API Base. This Repository is using docker to allow use of Laravel & My
 - POST api/auth
     - <em>Authorizes a loging and returns a Bearer Token for the user</em>
 - POST api/users
-    - <em>Creates a customer</em>
+    - <em>Creates a member</em>
 - GET api/users/me
     - <em>Returns data a user using an active Bearer Token</em>
